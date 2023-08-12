@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contianer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(241, 234, 248, 0.973);
+    width: 55rem;
+    padding-right: 5rem;
+    border-radius: 30px;
+    box-shadow: 15px 15px 29px;
+}
+.col-lg-4 img{
+    border-radius: 40% 0px 40% 0px;
+}
+.login h1{
+    font-size: 2rem;
+    font-weight: 200;
+}
+.inp{
+    height: 30px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: -26px -19px 30px -19px rgba(0, 0, 0, 0.35);
+}
+
+.btn1{
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    font-weight: 400;
+    background-color: rgb(189, 207, 243);
+}
+.login1{
+    padding: 10px;
+    font-size: 10px;
+}
+.fa-facebook{
+    padding: 5px;
+    margin: auto;
+}
+.fa-instagram{
+    padding: 5px;
+    margin: auto;
+}
+.fa-github{
+    padding: 5px;
+    margin: auto;
+}
+.fa-twitter{
+    padding: 5px;
+    margin: auto;
+}
+.fa-facebook:hover{
+    color: blue;
+
+}
+.fa-instagram:hover{
+    color: rgb(255, 0, 183);
+
+}
+.fa-github:hover{
+    color: rgba(61, 59, 59, 0.837);
+
+}
+.fa-twitter:hover{
+    color: rgb(105, 204, 235);
+
+}
+
+
